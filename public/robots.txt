@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://stfluckly29.github.io
+
+# Sitemaps
+Sitemap: https://stfluckly29.github.io/sitemap.xml

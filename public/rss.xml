@@ -1,0 +1,11 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Stefan Klein – Engineer.</title>
+      <link>https://stfluckly29.github.io</link>
+      <description>[...]</description>
+      <language>en</language>
+      <lastBuildDate>Sun, 03 Oct 2021 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://stfluckly29.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+    </channel>
+  </rss>
