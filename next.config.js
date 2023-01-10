@@ -1,11 +1,17 @@
 /**
  * @type {import('next').NextConfig}
  */
+const isProd = process.env.NODE_ENV === 'production'
+
 module.exports = {
   swcMinify: false,
+  assetPrefix: isProd ? '/stfluckly29.github.io/' : '',
   experimental: {
     scrollRestoration: true,
     nextScriptWorkers: true,
+  },
+  images: {
+    unoptimized: true,
   },
 
   webpack: (config, { dev, isServer }) => {
